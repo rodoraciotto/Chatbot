@@ -13,22 +13,28 @@
     "responses":["O PIPE-FAPESP apoia a execução de pesquisa científica e/ou tecnológica em micro, pequenas e médias empresas no Estado de São Paulo."]
   },
   { "_comment": "Essa intent explica qual a política de propriedade intelectual do PIPE",
-    "tag": "pipe-intelectual",
+    "tag": "prop-intelectual",
     "patterns":["qual a politica sobre propriedade intelectual do pipe?","Propriedade Intelectual","Politaca PIPE"],
     "responses":["As empresas apoiadas pelo PIPE detém exclusivamente os direitos legais de propriedade intelectual dos resultados das pesquisas financiadas, sem a exigência de compartilhamento com a Fundação. \n A empresa, portanto, poderá explorar, licenciar e proteger os resultados do projeto apoiado pela Fundação da forma que achar mais conveniente, seguindo sua estratégia de negócio, devendo manter a FAPESP informada em relação à propriedade intelectual para fins de acompanhamento. "]
   },
   { "_comment": "Essa intent explica onde será feito o projeto PIPE",
-    "tag": "pipe-empresa",
+    "tag": "local",
     "patterns":["Onde será realizado o projeto?","O projeto tem que ser feito na empresa?", "Preciso ir até a empresa trabalhar no projeto?"],
     "responses":["O projeto obrigatoriamente será realizado na empresa. O PIPE destina-se a apoiar a execução de pesquisa EM pequenas empresas sediadas no Estado de São Paulo, conforme está explicitado nas normas do programa. "]
   },
+  {
+    "_comment":"Essa intent explica se é necessário ter uma empresa para solicitar o PIPE",
+    "tag":"empresa",
+    "patterns":["Preciso ter uma empresa para solicitar o PIPE?","Posso solicitar o PIPE sem ter uma empresa?","É necessário ter uma empresa para solicitar o PIPE?", "Posso solicitar o PIPE sem ter uma empresa?"],
+    "responses":["A FAPESP analisa propostas de empresas ainda não constituídas. Empresas startup ainda não constituídas legalmente são incentivadas a submeter. Nos casos em que a proposta for recomendada, o proponente deverá então abrir formalmente a empresa antes da concessão da proposta."]
+  },
   { "_comment": "Essa intent informa qual o range do valor da bolsa PIPE",
-    "tag": "pipe-bolsa",
+    "tag": "bolsa",
     "patterns":["Quais sao os valores da bolsa do pipe?","bolsa-auxílio","Quanto o Pipe paga?"],
-    "responses":["Os valores variam entre 5 a 10mil reais."]
+    "responses":["Os valores variam entre 5 a 10 mil reais."]
   },
   { "_comment": "Essa intent explica quais os objetivos do PIPE",
-    "tag": "pipe-objetivos",
+    "tag": "objetivos",
     "patterns":["quais são os objetivos do pipe?","Objetivos do Fapesp-pipe?","Me explique os bjetivos do pipe-fapesp?"],
     "responses":["1. Apoiar a pesquisa em ciência e tecnologia como instrumento para promover a inovação tecnológica, promover o desenvolvimento empresarial e aumentar a competitividade das pequenas empresas.\n2. Incrementar a contribuição da pesquisa para o desenvolvimento econômico e social.\n3. Induzir o aumento do investimento privado em pesquisa tecnológica.\n4. Possibilitar que as empresas se associem a pesquisadores do ambiente acadêmico em projetos de pesquisa visando à inovação tecnológica.\n5. Contribuir para a formação e o desenvolvimento de núcleos de desenvolvimento tecnológico nas empresas e para o emprego de pesquisadores no mercado."]
   }
