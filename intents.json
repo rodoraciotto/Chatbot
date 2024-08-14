@@ -7,10 +7,6 @@
     "patterns":["valeu","tchau","Obrigado","tks"],
     "responses": ["Até breve","Falou"]
   },
-  { "tag": "data_prova",
-    "patterns":["Quando sera a prova?","A prova será em que dia?"],
-    "responses": ["no dia 26"]
-  },
   {"tag": "pipe",
     "patterns":["O que é pipe?","Sobre o que se trata o Fapesp-pipe?","Me explique o pipe-fapesp?"],
     "responses":["O PIPE-FAPESP apoia a execução de pesquisa científica e/ou tecnológica em micro, pequenas e médias empresas no Estado de São Paulo."]
@@ -20,15 +16,11 @@
   "responses":["As empresas apoiadas pelo PIPE detém exclusivamente os direitos legais de propriedade intelectual dos resultados das pesquisas financiadas, sem a exigência de compartilhamento com a Fundação. \n A empresa, portanto, poderá explorar, licenciar e proteger os resultados do projeto apoiado pela Fundação da forma que achar mais conveniente, seguindo sua estratégia de negócio, devendo manter a FAPESP informada em relação à propriedade intelectual para fins de acompanhamento. "]
   },
   {"tag": "pipe-empresa",
-  "patterns":["Onde será realizado o projeto?","O projeto tem que ser feito na empresa?"],
+  "patterns":["Onde será realizado o projeto?","O projeto tem que ser feito na empresa?", "Preciso ir até a empresa trabalhar no projeto?"],
   "responses":["O PIPE destina-se a apoiar a execução de pesquisa EM pequenas empresas sediadas no Estado de São Paulo, conforme está explicitado nas normas do programa. "]
   },
-  {"tag": "pipe-ter-empresa",
-  "patterns":["Preciso ter uma empresa para iniciar o Pipe?","Uma empresa é necessário para iniciar o pipe?"],
-  "responses":["Não. A FAPESP analisa propostas de empresas ainda não constituídas. Empresas startup ainda não constituídas legalmente são incentivadas a submeter. Nos casos em que a proposta for recomendada, o proponente deverá então abrir formalmente a empresa antes da concessão da proposta."]
-  },
   {"tag": "pipe-bolsa",
-  "patterns":["Quais sao os valoes da bolsa do pipe?"],
+  "patterns":["Quais sao os valores da bolsa do pipe?"],
   "responses":["Os valores variam entre 5 a 10mil reais."]
   },
   {"tag": "pipe-objetivos",
