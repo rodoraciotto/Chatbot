@@ -4,11 +4,11 @@
 Rodrigo Moreira Doraciotto | RA: 22.221.022-1
 
 Murilo Carvalho Povoa | RA: 22.221.034-6 	
+
 ### Referencias da aula
 
 - [IBM](https://developer.ibm.com/) 
 - [TowardsDataScience](https://towardsdatascience.com/how-to-create-a-chatbot-with-python-deep-learning-in-less-than-an-hour-56a063bdfc44)
-
 - [Repositório Professor Destro](https://github.com/rdestro/FEI-CC7711-ChatBot/blob/main/chatbot.py)
 
 ### Descrição
@@ -20,3 +20,8 @@ No relatório deve constar:
 - Figura com o Dialogo proposto (pode ser figura das telas de diálogo.. mas lembre-se de mostrar toda a estrutura)
 - link para um vídeo de até 2 minutos mostrando o uso do chatbot.. usuário deve fazer pelo menos três perguntas.
 - link para o repositório (GIT) com o seu projeto (incluindo os arquivos do modelo!)
+
+### Relatório
+
+Segue vídeo do Chatbot em execução:
+https://github.com/user-attachments/assets/e2c4a8e4-5119-4e35-a754-ce07848a75f5
