@@ -24,4 +24,6 @@ No relatório deve constar:
 ### Relatório
 
 Segue vídeo do Chatbot em execução:
-https://github.com/user-attachments/assets/e2c4a8e4-5119-4e35-a754-ce07848a75f5
+
+https://github.com/user-attachments/assets/df003c14-5217-4de4-b237-45636e55a4d6
+
