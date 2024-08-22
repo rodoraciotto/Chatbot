@@ -27,3 +27,4 @@ Segue vídeo do Chatbot em execução:
 
 https://github.com/user-attachments/assets/df003c14-5217-4de4-b237-45636e55a4d6
 
+OBS: caso o vídeo não esteja disponível, veja no repositório
